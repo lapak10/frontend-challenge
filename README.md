@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - [ReactJs](https://reactjs.org/) For making Single Page Application and it's User Interface.
 - [MDBoostrap](https://mdbootstrap.com/docs/react/layout/overview/) Pre-built, ready to use opensource React Bootstrap components.
 - [Ergast API](http://ergast.com) Used as a readonly backend of this application.
-- [Visual Studio Code](https://code.visualstudio.com/) My favorite code editor.
+- [Visual Studio Code](https://code.visualstudio.com/) My preferred code editor.
 
 ## Explanation (My Approach)
 As per the challenge statement, we can divide our app into two, High-level components :

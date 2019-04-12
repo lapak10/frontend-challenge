@@ -1,28 +1,24 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Routes from "./Routes";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { MDBBtn,MDBNav,MDBRow,MDBContainer, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
+import { MDBNavbar,MDBListGroupItem,MDBListGroup, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
+  MDBDropdownToggle,MDBFormInline,MDBFooter, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+  export default class AppRouter extends Component {
+    render(){
+      return (
+        
+        <Router>
+          <Routes />
+         </Router>
+        
+      )
+    }
+    
   }
-}
-
-export default App;
