@@ -7,7 +7,7 @@ The purpose of this challenge is to let the developer show familiarity and skill
 
 ### Clone
 
-- Clone this repo to your local machine using `git clone https://github.com/lapak10/frontend-challenge/`
+Clone this repo to your local machine using `git clone https://github.com/lapak10/frontend-challenge/`
 
 In the project directory, you can run:
 
@@ -30,6 +30,8 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tools Used
+- [ReactJs](https://reactjs.org/) (For making SPA and UI)
+- [MDBoostrap](https://mdbootstrap.com/docs/react/layout/overview/)
+- [Ergast API](http://ergast.com)
