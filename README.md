@@ -4,7 +4,9 @@
 
 ### Clone / Download
 (Recommended) Clone this repo to your local machine using this command: <br />
+
 `git clone https://github.com/lapak10/frontend-challenge/` <br/>
+
 Or, directly download the zip file from this repo and unzip it on your local machine.
 
 
