@@ -1,4 +1,4 @@
-# FinCompare Front-end Challenge Solution
+# FinCompare Front-end Challenge's Solution
 >Submitted by - Anand Kumar Chaudhary ( anand.kmk@gmail.com )
 ## Project Setup
 
@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Explanation (My Approach)
 As per the challenge statement, we can divide our app into two, High-level components :
 - `HomePage Component` => Containing year list (or grid) from 2005 to 2015.
-- `SeasonPage Component`=> Containg a list of all races in a single year.
+- `SeasonPage Component`=> Containg a list of all races in a single year, also highlights the champion of that year.
 
 Futhermore, we can subdivide these two components into smaller ones and take out common components.
 - `Route Component` => Important component which is reponsible for switching between `HomePage` and `SeasonPage` with proper route params.
