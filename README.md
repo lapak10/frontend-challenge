@@ -1,6 +1,7 @@
 # FinCompare Front-end Challenge's Solution
 >Submitted by - Anand Kumar Chaudhary ( anand.kmk@gmail.com )
 ## Project Setup
+![Final Preview](http://g.recordit.co/KZvmf4yv2w.gif)
 
 ### Clone
 (Recommended) Clone this repo to your local machine using this command: <br />
