@@ -7,7 +7,6 @@
 (Recommended) Clone this repo to your local machine using this command: <br />
 
 ```$xslt
-# Cloning the Repo
 git clone https://github.com/lapak10/frontend-challenge.git
 cd ./frontend-challenge
 ``` 
