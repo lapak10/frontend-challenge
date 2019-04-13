@@ -19,14 +19,15 @@ export default class HomePage extends Component {
   componentDidMount() {
 
     let url = 'https://ergast.com/api/f1/driverStandings/1.json?limit=11&offset=55';
-    fetch(url).
-      then(response => response.json()).then((repos) => {
-        console.log(repos.MRData.StandingsTable.StandingsLists);
-        console.log(repos.length);
-        this.setState({
-          race_list: repos.MRData.StandingsTable.StandingsLists
-        });
+
+    fetch(url).then(response => response.json()).then((repos) => {
+      console.log(repos.MRData.StandingsTable.StandingsLists);
+      console.log(repos.length);
+      this.setState({
+        race_list: repos.MRData.StandingsTable.StandingsLists
       });
+    });
+
   }
 
   render() {

@@ -21,7 +21,7 @@ export default class CountryFlag extends Component {
   }
   render() {
     return (
-      <img src={`https://www.countryflags.io/${this.get_country_code(this.props.countryname)}/flat/16.png`}></img>
+      <img alt={this.props.countryname} src={`https://www.countryflags.io/${this.get_country_code(this.props.countryname)}/flat/16.png`}></img>
     )
   }
 }

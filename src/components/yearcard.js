@@ -3,9 +3,7 @@ import { Link } from "react-router-dom"
 import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody } from 'mdbreact'
 
 export default class YearCard extends Component {
-    constructor(props) {
-        super(props);
-    }
+    
     render() {
         return (
             <Link to={`/season/${this.props.year}/champion/${this.props.winnerid}`}  >

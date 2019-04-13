@@ -20,16 +20,15 @@ export default class SeasonDetail extends Component {
 
         let url = `https://ergast.com/api/f1/${this.props.match.params.year}/results/1.json`
 
-        fetch(url).
-            then(response => response.json()).then((repos) => {
-                console.log(repos.MRData.RaceTable.Races);
-                console.log(repos.length);
-                this.setState({
-                    season_races: repos.MRData.RaceTable.Races,
-                    season: repos.MRData.RaceTable.season,
-                    winner_code: this.props.match.params.winnerid
-                });
+        fetch(url).then(response => response.json()).then((repos) => {
+            console.log(repos.MRData.RaceTable.Races);
+            console.log(repos.length);
+            this.setState({
+                season_races: repos.MRData.RaceTable.Races,
+                season: repos.MRData.RaceTable.season,
+                winner_code: this.props.match.params.winnerid
             });
+        });
     }
 
     render() {
