@@ -6,12 +6,15 @@
 ### Clone
 (Recommended) Clone this repo to your local machine using this command: <br />
 
-`git clone https://github.com/lapak10/frontend-challenge/` <br/>
+```$xslt
+# Cloning the Repo
+git clone https://github.com/lapak10/frontend-challenge.git
+cd ./frontend-challenge
+``` 
 
 Or, directly download the zip file from this repo and unzip it on your local machine.
 
-
-Open your terminal, navigate into the project directory and run:
+Open your terminal, navigate into the project directory (if not already) and run:
 ### `npm install`
 This will install all the required npm packages for the project.
 
