@@ -1,4 +1,4 @@
-# <img style="float: left;" height='50px' width='50px' src="https://fincompare.de/wp-content/themes/fincompare/media/images/manifest/512.png"> FinCompare Front-end Challenge's Solution
+# <img style="float: left;" height='50px' width='50px' align="middle" src="https://fincompare.de/wp-content/themes/fincompare/media/images/manifest/512.png"> FinCompare Front-end Challenge's Solution
 >Submitted by - Anand Kumar Chaudhary ( anand.kmk@gmail.com )
 ## Project Setup
 ![Final Preview](http://g.recordit.co/KZvmf4yv2w.gif)
