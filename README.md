@@ -3,7 +3,7 @@
 ## Project Setup
 ![Final Preview](http://g.recordit.co/KZvmf4yv2w.gif)
 
-<img style="float: right;" src="https://fincompare.de/wp-content/themes/fincompare/media/images/manifest/512.png">
+<img style="float: left;" height='64px' width='64px' src="https://fincompare.de/wp-content/themes/fincompare/media/images/manifest/512.png">
 
 ### Clone
 (Recommended) Clone this repo to your local machine using this command: <br />
