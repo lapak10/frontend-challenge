@@ -10,6 +10,7 @@ export default class SeasonDetail extends Component {
 
     constructor(props) {
         super(props);
+        //defining initial state with default keys to empty
         this.state = { season_races: [], winner_code: '' };
     }
 
@@ -17,13 +18,13 @@ export default class SeasonDetail extends Component {
     componentDidMount() {
 
         this.setState({})
-
+        //defining Ergast API url with required query params..
         let url = `https://ergast.com/api/f1/${this.props.match.params.year}/results/1.json`
 
         fetch(url).then(response => response.json()).then((repos) => {
-            console.log(repos.MRData.RaceTable.Races);
-            console.log(repos.length);
+            
             this.setState({
+                // putting required data to suitable states
                 season_races: repos.MRData.RaceTable.Races,
                 season: repos.MRData.RaceTable.season,
                 winner_code: this.props.match.params.winnerid
@@ -35,6 +36,7 @@ export default class SeasonDetail extends Component {
         return (
 
             <div>
+                {/* NavBar component with appropriate props */}
                 <Navbar page='season' year={this.props.match.params.year}></Navbar>
                 <MDBContainer fluid>
                     {this.state.season_races.length ? (
@@ -79,6 +81,7 @@ export default class SeasonDetail extends Component {
                         </MDBTable>
 
                     ) : (
+                         // Preloader spinner which will lasts untill the call to api is completed
                             <div className="spinner-grow text-info" style={{ marginLeft: '50%', marginTop: '15%' }} role="status">
                                 <span className="sr-only">Loading...</span>
                             </div>
